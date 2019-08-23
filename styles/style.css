@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  font-family: 'Francois One', sans-serif;
+}
+
+#topbar {
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+}
+
+.container {
+  padding: 20px 20px 20px 20px;
+}
+
+.container #id {
+  text-align: right;
+  display: inline;
+}
+
+#leftsearch {
+  width: 15%;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  z-index: 5;
+}
+
+span {
+  float: right;
+  text-decoration: none;
+  color: black;
+  padding-left: 15px;
+}
+
+#lt {
+  color: black;
+  text-align: center;
+}
+
+#navul {
+  text-align: center;
+}
+
+#navul #navli {
+  display: inline;
+  text-align: center;
+  padding-left: 20px;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 4%;
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 300px) {
+  #navul {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+#mainsearch {
+  text-align: center;
+}
+
+#mainsearch .round {
+  width: 20%;
+  border-radius: 15px;
+  border: 1px #000 solid;
+  padding: 5px 5px 5px 25px;
+  z-index: 5;
+}
+
+#pitem {
+  text-align: center;
+}
+
+.card {
+  background: #f1f1f1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.card .top-section {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 210px;
+  overflow: hidden;
+  background: #fff;
+  position: relative;
+}
+
+.card .top-section #image-container {
+  width: 15%;
+  height: 240px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .top-section .nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card .top-section .nav .nav img {
+  width: 80px;
+  height: 50px;
+  border: 1px solid #ddd;
+  margin: 8px 2px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card .top-section .nav .nav img .nav img:hover {
+  border-color: #6ab04c;
+}
+
+.card .top-section .price {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  font-size: 14px;
+  border-radius: 100%;
+  background: #f1f1f1;
+  height: 44px;
+  width: 44px;
+  vertical-align: center;
+  padding-top: 6px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.columnf {
+  float: left;
+  width: 20%;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .columnf {
+    width: 50% !important;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .columnf {
+    width: 100% !important;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+button {
+  color: blue;
+  background-color: blue;
+  border-radius: 95%;
+  width: 20px;
+  height: 20px;
+  margin-top: 5%;
+}
+
+button.selected {
+  border-color: black;
+}
+
+#footertop {
+  background-color: #f1f1f1;
+}
+
+#footerbottom {
+  text-align: center;
+  background-color: gray;
+}
+/*# sourceMappingURL=style.css.map */
